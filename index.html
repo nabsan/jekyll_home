@@ -19,8 +19,24 @@ page_title: Blog
 </div>
 {% for post in site.posts %}
 {% endfor %}
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nabsan';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+
 <script>
-  var disqus_shortname = "alexpearce";
+/*
+  var disqus_shortname = "nabsan";
 
   (function () {
     var s = document.createElement("script");
@@ -29,4 +45,5 @@ page_title: Blog
     
     document.getElementsByTagName("head")[0].appendChild(s);
   }());
+*/
 </script>
