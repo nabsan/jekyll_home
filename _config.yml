@@ -15,7 +15,7 @@ source: .
 # Where to put the compiled site
 destination: ./_site
 # Markdown engine
-markdown: kramdown
+markdown: rdiscount
 # Use Pygments for syntax highlighting
 pygments: true
 
